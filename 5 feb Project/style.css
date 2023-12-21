@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    border: none;
+}
+
+.main-logo{
+    margin-top: 15px;
+    padding-left: 100px;
+}
+
+.line {
+    width: 1px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: -470px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: -480px;
+}
+
+div a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn1 button{
+    background-color: #9C27B0;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-right: 50px;
+    padding: 6px 20px;
+    font-size: 16px;
+}
+
+section {
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    height: 120vh;
+    text-align: center;
+}
+
+.text-heading{
+    color: white;
+    padding-top: 230px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+    color:#fff;
+    font-size: 20px;
+}
+
+.btn2{
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9b44a8f8;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
