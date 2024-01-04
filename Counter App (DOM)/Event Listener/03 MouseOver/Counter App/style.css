@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box{
+    border-radius: 10px;
+    background-color: aqua;
+    width: 20%;
+    padding: 10px 0;
+    cursor: pointer;
+    text-align: center;
+}
